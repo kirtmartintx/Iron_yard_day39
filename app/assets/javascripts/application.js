@@ -16,7 +16,7 @@
 //= require_tree .
 
 $(window).ready(function(){
-window.map = L.map('map').setView([29.7601927, -95.36938959999999], 12);
+window.map = L.map('map').setView([38.6272, -90.1978], 12);
 L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 maxZoom: 13,
 attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
