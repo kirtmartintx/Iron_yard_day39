@@ -55,4 +55,10 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  namespace :api do
+    get "places" => 'places#index'
+    post "places" => 'places#create'
+    put "places/:id" => 'places#update'
+  end
 end

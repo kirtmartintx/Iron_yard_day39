@@ -6,6 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  Point.create name: 'Jefferson National Expansion Memorial'
-  Point.create name: 'Saint Louis Zoo'
-  Point.create name: 'Anheuser-Busch Brewery'
+  Point.create name: 'Astrodome'
+  Point.create name: 'Gallaria, Houston TX'
+  Point.create name: 'Saint Aronolds Brewery, Houston TX'
