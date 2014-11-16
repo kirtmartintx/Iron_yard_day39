@@ -43,6 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
+  gem 'rails-api'
   gem 'geocoder'
   gem 'rails_12factor'
   gem 'active_model_serializers'
