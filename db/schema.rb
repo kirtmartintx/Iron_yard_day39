@@ -17,6 +17,10 @@ ActiveRecord::Schema.define(version: 20141116221538) do
   enable_extension "plpgsql"
 
   create_table "places", force: true do |t|
+    t.string   "name"
+    t.string   "city"
+    t.integer  "lat"
+    t.integer  "lng"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
