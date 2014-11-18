@@ -3,10 +3,8 @@
 <div id="map"></div>
 <script>
   $(window).ready(function(){
-    <% @points.each do |point| %>
-      L.marker([<%= point.lat %>, <%= point.lng %>])
-      .addTo(window.map)
-      .bindPopup("<b><%= point.name %></b>");
-    <% end %>
-  });
+    $.getJSON ("/api/places")
+    .done(function(data){
+
+    });
 </script>
